@@ -1,0 +1,91 @@
+Codebook - "GettingAndCleaningDataCourseProjectTidyData.txt"
+
+This is the codebook for the tidyData.txt created by the 
+run_analysis.R script.  tidyData.txt is a data set with the average of each
+mean and standard deviation measurement for each subject and each activity
+found in the UCI HAR Dataset.
+
+There are 68 variables with the following definitions:
+
+1 "Subject" - integer representing the subject of the movement
+recorded.
+
+2 "Activity" - a factor representing 6 activities performed by
+the subjects:
+  1 LAYING
+  2 SITTING
+  3 STANDING
+  4 WALKING
+  5 WALKING_DOWNSTAIRS
+  6 WALKING_UPSTAIRS
+
+The remaining variables 66 are described below:
+
+3 tBodyAcc.mean...X - average mean X axis time-based body acceleration measurements  
+4 tBodyAcc.mean...Y - average mean Y axis time-based body acceleration measurements
+5 tBodyAcc.mean...Z - average mean Z axis time-based body acceleration measurements
+6 tBodyAcc.std...X - average standard deviation of the X axis time-based body acceleration measurements
+7 tBodyAcc.std...Y - average standard deviation of the Y axis time-based body acceleration measurements
+8 tBodyAcc.std...Z - average standard deviation of the Z axis time-based body acceleration measurements
+9 tGravityAcc.mean...X - average mean X axis time-based gravity acceleration measurements
+10 tGravityAcc.mean...Y - average mean Y axis time-based gravity acceleration measurements
+11 tGravityAcc.mean...Z - average mean Y axis time-based gravity acceleration measurements
+12 tGravityAcc.std...X - average standard deviation of the X axis time-based gravity acceleration measurements
+13 tGravityAcc.std...Y - average standard deviation of the Y axis time-based gravity acceleration measurements
+14 tGravityAcc.std...Z - average standard deviation of the Z axis time-based gravity acceleration measurements
+15 tBodyAccJerk.mean...X - average mean X axis time-based body acceleration jerk measurements
+16 tBodyAccJerk.mean...Y - average mean Y axis time-based body acceleration jerk measurements
+17 tBodyAccJerk.mean...Z - average mean Z axis time-based body acceleration jerk measurements
+18 tBodyAccJerk.std...X - average standard deviation of the X axis time-based body acceleration jerk measurements
+19 tBodyAccJerk.std...Y - average standard deviation of the Y axis time-based body acceleration jerk measurements
+20 tBodyAccJerk.std...Z - average standard deviation of the Z axis time-based body acceleration jerk measurements
+21 tBodyGyro.mean...X - average mean X axis time-based body gyro measurements
+22 tBodyGyro.mean...Y - average mean Y axis time-based body gyro measurements
+23 tBodyGyro.mean...Z - average mean Z axis time-based body gyro measurements
+24 tBodyGyro.std...X - average standard deviation of the X axis time-based body gyro measurements
+25 tBodyGyro.std...Y - average standard deviation of the X axis time-based body gyro measurements
+26 tBodyGyro.std...Z - average standard deviation of the X axis time-based body gyro measurements
+27 tBodyGyroJerk.mean...X - average mean X axis time-based body gyro jerk measurements
+28 tBodyGyroJerk.mean...Y - average mean Y axis time-based body gyro jerk measurements
+29 tBodyGyroJerk.mean...Z - average mean Z axis time-based body gyro jerk measurements
+30 tBodyGyroJerk.std...X - average standard deviation of the X axis time-based body gyro jerk measurements
+31 tBodyGyroJerk.std...Y - average standard deviation of the Y axis time-based body gyro jerk measurements
+32 tBodyGyroJerk.std...Z - average standard deviation of the Z axis time-based body gyro jerk measurements
+33 tBodyAccMag.mean.. - average mean time-based body acceleration magnitude
+34 tBodyAccMag.std.. - average standard deviation time-based body acceleration magnitude
+35 tGravityAccMag.mean.. - average mean time-based gravity acceleration magnitude
+36 tGravityAccMag.std.. - average standard deviation time-based body acceleration magnitude
+37 tBodyAccJerkMag.mean.. - average mean time-based body acceleration jerk magnitude
+38 tBodyAccJerkMag.std.. - average standard deviation time-based body acceleration jerk magnitude
+39 tBodyGyroMag.mean.. - average mean time-based body gyro magnitude
+40 tBodyGyroMag.std.. - average standard deviation time-based body gyro magnitude
+41 tBodyGyroJerkMag.mean.. - average mean time-based body gyro jerk magnitude
+42 tBodyGyroJerkMag.std.. - average standard deviation time-based body gyro jerk magnitude
+43 fBodyAcc.mean...X - average mean X axis FFT-based body acceleration measurements
+44 fBodyAcc.mean...Y - average mean Y axis FFT-based body acceleration measurements
+45 fBodyAcc.mean...Z - average mean Z axis FFT-based body acceleration measurements
+46 fBodyAcc.std...X - average standard deviation of the X axis FFT-based body acceleration measurements
+47 fBodyAcc.std...Y - average standard deviation of the Y axis FFT-based body acceleration measurements
+48 fBodyAcc.std...Z - average standard deviation of the Z axis FFT-based body acceleration measurements
+49 fBodyAccJerk.mean...X - average mean X axis FFT-based body acceleration jerk measurements
+50 fBodyAccJerk.mean...Y - average mean Y axis FFT-based body acceleration jerk measurements
+51 fBodyAccJerk.mean...Z - average mean Z axis FFT-based body acceleration jerk measurements
+52 fBodyAccJerk.std...X - average standard deviation of the X axis FFT-based body acceleration jerk measurements
+53 fBodyAccJerk.std...Y - average standard deviation of the Y axis FFT-based body acceleration jerk measurements
+54 fBodyAccJerk.std...Z - average standard deviation of the Z axis FFT-based body acceleration jerk measurements
+55 fBodyGyro.mean...X - average mean X axis FFT-based body gyro measurements
+56 fBodyGyro.mean...Y - average mean Y axis FFT-based body gyro measurements
+57 fBodyGyro.mean...Z - average mean Z axis FFT-based body gyro measurements
+58 fBodyGyro.std...X - average standard deviation of the X axis FFT-based body gyro measurements
+59 fBodyGyro.std...Y - average standard deviation of the Y axis FFT-based body gyro measurements
+60 fBodyGyro.std...Z - average standard deviation of the Z axis FFT-based body gyro measurements
+61 fBodyAccMag.mean.. - average mean FFT-based body acceleration magnitude
+62 fBodyAccMag.std.. - average standard deviation FFT-based body acceleration magnitude
+63 fBodyBodyAccJerkMag.mean.. - average mean FFT-based body acceleration jerk magnitude
+64 fBodyBodyAccJerkMag.std.. - average standard deviation FFT-based body acceleration jerk magnitude
+65 fBodyBodyGyroMag.mean.. - average mean FFT-based body gyro magnitude
+66 fBodyBodyGyroMag.std.. - average standard deviation FFT-based body gyro magnitude
+67 fBodyBodyGyroJerkMag.mean.. - average mean FFT-based body gyro jerk magnitude
+68 fBodyBodyGyroJerkMag.std.. - average standard deviation time-based body gyro jerk magnitude
+
+Please see features_info.txt for further information on how the original values were collected and calculated.
